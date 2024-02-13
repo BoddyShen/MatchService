@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "quick-replica-405920",
+  "private_key_id": "46667d69c244904ab322d65fdc4d78c339f78b88",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC2XnrvY3skmNTD\ntKbtOCO2gyCH+VFi/KZlY1N7tKBzZw6o5DjoNpBng9WqZOGjEEv0LVxD1O1rXSaW\n/tCecs+TzlP10K41xhasbYNbq782Jzm/fO7Q/X+1MLqmI7dhFJRJfbyfZIHCbUlX\njy7Vl+SSm0ErYtjkaZnUAb4rUGIiKNESjGvgCuF1yokrrykiUTE82eDfwdQlPnzM\nRZy2bmPfTPU4kQt+oArPjHkSHx6LDbvGypNRWkXio97ky0x+7ZvYNAdf8hQNH+vu\nZlegHJzjbSEfKV5F8l5yddEQtpgXgxn+zUTa/0nBxbOH7rIyOsECRIHxie8WiE2x\n4BT9CwpfAgMBAAECggEAHibd1YGRpRndp6PRK4xqHy1r7f9TLPYPvtiev2e8VYg2\n/MaLAB2xX2QFKiB2y+KQZEUxqYdlX6htjm5/6Iqb9liZOh2wB/UB361VmAz71sTC\nf/30cDpRaJAvc/OYyKTB5aqzyniwGYi/JQpn2Gm+IV0o97bmnFE3XT2Shw/JwdLM\nx0ifbkTxzH1eas6D1vx7BP9fojE+k0ZW6J06fJK8t5RrHQLhyuwxf2+vjfkGBcL2\n12aSsiLqn9d039Wyww/W8ELRYNdKXmbIZLp3PQYbRsiD20fWGm9/+WL1dnW+6yKI\nermkh73cRtb6MGTbQDQYIJLGcF3UYB4cJzR1dFwvBQKBgQD09474sZyynq0vTNa8\nFtyHM2ytYKARyZLUprF57mFSPLeR5bKKbEZKLDK1/BO4KHIKu7VJvcZWHH4RiX+s\neffyXVmfbf1bBb0n8MYRBb6Yqs73b1izTxHW4+/uYJZrOYC3IdEw9f0kkFSlXEaW\n6/yYuS/n1Hg9BamAyiA23dINWwKBgQC+lSypWLxcJRCYXnmTY8kys8LUpfbTCaGQ\nbWYKAJ5KlAPPwdEyDxozR8iXkC1x948SpUrYaiKYqKAAtndy+F1SQAq3zymg2tjd\nfqm9IpY9R9mIIv/UAhjVH6vSF7WKv4Vj0GCWs/COJah1LuFrfsWS8/5bmH8+auvb\n9Z2GAEfyTQKBgQDlOSWaxzBW4C40XZVuSYIwLUmbbxg5rMJtpFHcQ9jjiBdKOYL5\nDlozm+oT6n5VS9ty+bSo/SCzgVPieyRyM2t1ai6sBdMWsmcPEbl1QkfYObUTSijZ\nGLsbtwzTpaP7T8KHGujSBMzMwxXB6nfPT6F9E4SlTWb5yuuSrRC55pVgkwKBgHJq\nemqctFCZi/H93f1HjfXbh99EV/9wq8dadkURA/cAD5293UqxWGhq8xlS3IWsOv/V\nri5o4aZGrfBfmyyxwMztV8HsJDDG0iV/soWy6wGVThp18KKmM6RXpD64LyxCOOGo\nqyQumP+tygm4AGsZq6HCy/TPg6zEYh8mwNA/APKNAoGBAJUO0awIOuUysB1kIVXg\n/R4AYcYLMuILUCOJi3ORg9ouz8VbvfyGSf2meaMveXczIpxt31ypENPNb3Ibhj5w\n1aajRdJ3zamUthZVyxbqCmPhGcS3uibSWhIiJLP3MiF8TGJrKO50XlOj5AYtFB1A\nL4HLrjKv3rso8o3VZLJL+rRl\n-----END PRIVATE KEY-----\n",
+  "client_email": "umassenger-founder@quick-replica-405920.iam.gserviceaccount.com",
+  "client_id": "117110534849254467242",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/umassenger-founder%40quick-replica-405920.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

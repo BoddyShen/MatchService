@@ -1,0 +1,75 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: match-service-app
+spec:
+  selector:
+    matchLabels:
+      app: match-service-app
+  template:
+    metadata:
+      labels:
+        app: match-service-app
+    spec:
+      containers:
+        - name: match-service-app
+          image: pohengshen96/matchservice
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8083
+          env:
+            - name: CONFIG_SERVER_URL
+              valueFrom:
+                configMapKeyRef:
+                  name: config-cm
+                  key: config_url
+            # - name: EUREKA_SERVER_ADDRESS
+            #   valueFrom:
+            #     configMapKeyRef:
+            #       name: eureka-cm
+            #       key: eureka_service_address
+            # mongodb
+            - name: STAGING_MONGO_DATABASE
+              valueFrom:
+                configMapKeyRef:
+                  name: mongodb-config
+                  key: mongo_database
+            - name: STAGING_MONGO_CLUSTER
+              valueFrom:
+                configMapKeyRef:
+                  name: mongodb-config
+                  key: mongo_cluster
+            - name: STAGING_MONGO_USER
+              valueFrom:
+                secretKeyRef:
+                  name: mongo-secret
+                  key: mongo_user
+            - name: STAGING_MONGO_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mongo-secret
+                  key: mongo_password
+            # redis
+            - name: REDIS_URL
+              valueFrom:
+                configMapKeyRef:
+                  name: redis-config
+                  key: url
+            # jwt
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: jwt-secret
+                  key: jwt_secret
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: match-service-svc
+spec:
+  selector:
+    app: match-service-app
+  ports:
+    - port: 80
+      targetPort: 8083
