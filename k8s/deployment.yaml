@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: match-service-app
-          image: pohengshen96/matchservice
+          image: IMAGE_URL/matchservice
           imagePullPolicy: Always
           ports:
             - containerPort: 8083
